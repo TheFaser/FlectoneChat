@@ -2,7 +2,6 @@
 
 When creating an almost vanilla server, I noticed that there was no convenient and easy-to-use chat plugin. There are quite a few plugins, but there is not what exactly is needed together, so I present to you the FlectoneChat plugin
 
-
 ![Features](https://media.discordapp.net/attachments/570557439888588821/813722971008925696/features.jpg)
  
 - **Join**/**left** the game message
@@ -15,9 +14,6 @@ When creating an almost vanilla server, I noticed that there was no convenient a
 - Replaced **/me** and **/try** to test your luck
 - Reload the plugin config with one command
    - **/flectone reload**
-
-## Give
-
 
 ![Config](https://media.discordapp.net/attachments/570557439888588821/813722982329221150/config.jpg)
 
@@ -53,3 +49,5 @@ success: "minecraft:block.note_block.iron_xylophone"
 fail: "minecraft:block.note_block.bass"
 ```
 If you are going to change the sound itself, take it from the command /playsound in minecraft
+
+### [SpigotMC](https://www.spigotmc.org/resources/flectonechat.89411/)
