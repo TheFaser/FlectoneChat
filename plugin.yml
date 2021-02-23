@@ -1,0 +1,48 @@
+main: flectone.main.flectone
+name: Flectone
+version: 1.0
+author: TheFaser
+description: FlectoneChat
+api-version: 1.16
+commands:
+  tell:
+    description: Tell
+    usage: /msg <player> <message>
+    aliases: [w, m, msg, send]
+    permission: flectone.tell
+  me:
+    description: Me
+    usage: /me <message>
+    permission: flectone.me
+  try:
+    description: Try
+    usage: /try <action>
+    permission: flectone.try
+  ignore:
+    description: Ignore
+    usage: /ignore <player>
+    permission: flectone.ignore
+  ignorelist:
+    description: IgnoreList
+    usage: /ignorelist
+    permission: flectone.ignore
+  reply:
+    description: Reply
+    usage: /reply <message>
+    aliases: [r]
+    permission: flectone.tell
+  flectone:
+    description: Flectone reload
+    usage: /flectone reload
+    permission: flectone.reload
+permissions:
+  flectone.tell:
+    default: true
+  flectone.me:
+    default: true
+  flectone.try:
+    default: true
+  flectone.ignore:
+    default: true
+  flectone.reload:
+    default: op
